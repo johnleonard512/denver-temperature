@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 2rem;
+    background: linear-gradient(to top, #ff7e5f, #ffddff);
+    padding: 2rem;
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 3rem;
+    font: 1.2rem "Fira Sans", sans-serif;
+}
+
+input, button {
+    
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
